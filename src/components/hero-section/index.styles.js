@@ -76,6 +76,22 @@ const useStyles = makeStyles((theme) => ({
     },
 
     socialIcon: {
+        width: '4rem',
+        height: '4rem',
+        fontSize: '4rem',
+        cursor: 'pointer',
+        color: 'var(--text-primary)',
+        transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+        filter: 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1))',
+
+        '&:hover': {
+            color: 'var(--accent-color)',
+            transform: 'scale(1.3) translateY(-4px)',
+            filter: 'drop-shadow(0 8px 16px rgba(99, 102, 241, 0.4))',
+        },
+    },
+
+    socialIconImg: {
         width: '3rem',
         height: '3rem',
         fontSize: '3rem',

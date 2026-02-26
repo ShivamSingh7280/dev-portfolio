@@ -101,7 +101,7 @@ const HeroSection = () => {
 
               if (item.type === 'component' && item.label === 'LeetCode') {
                 return (<span onClick={() => _handleSocialIconClick(item?.link, item?.name)}>
-                  <LeetCodeIcon key={item.id} className={classes.socialIcon}
+                  <LeetCodeIcon key={item.id} className={classes.socialIconImg}
                   />
                 </span>
                 )

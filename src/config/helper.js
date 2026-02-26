@@ -49,8 +49,8 @@ export const SOCIAL_MEDIA_LOGOS = [
   { id: 1, name: 'Github', type: 'icon', label: GitHubIcon, link:'https://github.com/ShivamSingh7280' },
   { id: 2, name: 'LinkedIn', type: 'icon', label: LinkedInIcon, link: 'https://www.linkedin.com/in/shivamsingh2808/' },
   { id: 3, name: 'Instagram', type: 'icon', label: InstagramIcon, link: 'https://www.instagram.com/thakurshivam7280?igsh=bHZiaXNoM2c5d2p4&utm_source=qr'},
-  { id: 4, name: 'Facebook', type: 'icon', label: FacebookIcon, link:'' },
-  { id: 5, name: 'X', type: 'icon', label: XIcon, link: '' },
+  // { id: 4, name: 'Facebook', type: 'icon', label: FacebookIcon, link:'' },
+  // { id: 5, name: 'X', type: 'icon', label: XIcon, link: '' },
   { id: 6, name: 'Leetcode', type: 'component', label: 'LeetCode', link: 'https://leetcode.com/u/thakurshivam7280/' },
 ];
 
