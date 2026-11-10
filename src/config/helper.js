@@ -13,8 +13,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
 
-import Master_O from '../assets/company-logo/master-o.jpg';
 import Crio_Do from '../assets/company-logo/crio-do.jfif';
+import Master_O from '../assets/company-logo/master-o.jpg';
+import FarEye from '../assets/company-logo/fareye.jpg';
 
 export const NAVIGATION_DATA = [
   { id: 1, label: 'Home', link: '#home' },
@@ -56,7 +57,7 @@ export const SOCIAL_MEDIA_LOGOS = [
 
 export const ABOUT_ME_INTRODUCTION_TEXT = "I’m Shivam Singh, a full-stack developer focused on building reliable, scalable web systems. I work primarily with React and Node.js, enjoy designing clean APIs, and care deeply about code quality, performance, and maintainability. I like solving real problems and shipping software that holds up in production."
 
-export const RESUME_LINK = 'https://drive.google.com/file/d/1m5lufF4-thGbau-8U2QlPAPCAr-YCulr/view?usp=sharing';
+export const RESUME_LINK = 'https://drive.google.com/file/d/12Iq3-H21QCQ1g4tr1jLp1tRstVR1Xb9U/view?usp=sharing';
 
 export const EXPERIENCES = [
   {
@@ -73,6 +74,13 @@ export const EXPERIENCES = [
     logo: Master_O,
     timePeriod: 'Jan 2024 - Dec 2025'
   },
+   {
+    id: 3,
+    companyName: 'FarEye Technologies',
+    designation: 'Solution Engineer(L2)',
+    logo: FarEye,
+    timePeriod: 'May 2026 - Present'
+  }
 ];
 
 

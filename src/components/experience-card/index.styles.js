@@ -21,20 +21,21 @@ const useStyles = makeStyles((theme) => ({
   cardImg: {
     width: '15cqi',
     height: '15cqi',
-    borderRadius: '50%',       // 🔥 circle
-    overflow: 'hidden',        // 🔥 clip image
+    borderRadius: '50%',       
+    overflow: 'hidden',        
     border: '2px solid var(--border-primary)',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: '0.75rem',
-    background: '#fff',        // optional (good for logos)
+    background: '#fff',        
   },
 
   logoImg: {
     width: '100%',
     height: '100%',
-    objectFit: 'contain',      // 🔥 logo fits inside circle
+    objectFit: 'contain',     
+    
   },
 
   companyName: {
